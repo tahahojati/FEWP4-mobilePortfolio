@@ -30,6 +30,8 @@ form {
 }
 
 .mover {
+  /*let the browser know that these elements must be in their own layers */
+  transform: transformZ(0); 
   will-change:transform;
   position: fixed;
   width: 256px;
