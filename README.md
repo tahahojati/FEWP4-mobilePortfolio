@@ -1,12 +1,11 @@
-## Website Performance Optimization portfolio project
+# Website Performance Optimization portfolio project
 
 The purpose of this project was to optimize the performances of two basic pages:
-<ul>
-	<li>index.html </li>
-	<li>views/pizza.html</li>
-</ul>
 
+* index.html 
+* views/pizza.html
 
+Note: to run the project, clone the repository and open ``/index.html`` and ``/views/index.html`` in a browser. 
 ###Part 1: Optimize PageSpeed Insights score for index.html
 To do this, I replaced the CSS links to style.css and googleapis(for font) with style tags in the &le head &ge element.
 I also added `media="print"` tag to css link to print.css to prevent it from being downloaded by browser. 
